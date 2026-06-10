@@ -1,0 +1,5 @@
+server = "http://harbor.lab.local"
+
+[host."http://harbor.lab.local"]
+  capabilities = ["pull", "resolve"]
+  skip_verify = true
