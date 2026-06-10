@@ -47,6 +47,8 @@ This project demonstrates practical experience with cloud-native infrastructure,
 
 ## Architecture
 
+<img src="https://github.com/user-attachments/assets/0e69fc4a-45ef-44d6-91c3-8f35203abc42" alt="Enterprise Kubernetes DevOps Platform architecture diagram" />
+
 ```mermaid
 flowchart TD
     Dev[Developer] --> GitLab[GitLab CE]
@@ -68,6 +70,14 @@ flowchart TD
     Prometheus --> Nodes[Node Exporters]
 ```
 
+## Screenshots
+
+- [Full screenshot gallery](docs/screenshots.md)
+- Grafana Node Exporter dashboard
+- GitLab admin dashboard
+- Harbor registry project
+- Monitoring stack deployment
+
 ## Repository Structure
 
 ```text
@@ -79,6 +89,7 @@ flowchart TD
 │   ├── kubernetes.md
 │   ├── harbor.md
 │   ├── monitoring.md
+│   ├── screenshots.md
 │   ├── troubleshooting.md
 │   └── lessons-learned.md
 ├── kubernetes/
@@ -98,6 +109,7 @@ flowchart TD
 - [Kubernetes](docs/kubernetes.md)
 - [Harbor Registry](docs/harbor.md)
 - [Monitoring](docs/monitoring.md)
+- [Screenshots](docs/screenshots.md)
 - [Troubleshooting](docs/troubleshooting.md)
 - [Lessons Learned](docs/lessons-learned.md)
 
